@@ -1,0 +1,585 @@
+
+*{
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+.div1{
+    text-align:center;
+
+   
+}
+.head5{
+    
+    text-align:center;background:radial-gradient(  rgba(255,236,2,1), rgb(255, 150, 2), rgba(255,187,29,1), rgba(255,175,7,1));
+   background-size: 200%;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   background-clip: text;
+   animation: animate-gradient 2s linear infinite;
+   cursor:pointer;
+}
+@keyframes animate-gradient{
+    to {
+        background-position: 200%;
+    }
+}
+.head5:hover{
+      
+      animation: animate-gradient 0.4s linear infinite;
+      cursor:pointer;
+      transition: all 1s;
+} 
+
+.head3{
+
+    text-align:center;background:radial-gradient(  rgba(255,236,2,1), rgb(255, 150, 2), rgba(255,187,29,1), rgba(255,175,7,1));
+  
+   background-size: 200%;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   background-clip: text;
+   animation: animate-gradient 2s linear infinite;
+   cursor:pointer;
+}
+@keyframes animate-gradient{
+    to {
+        background-position: 200%;
+    }
+}
+.head3:hover{
+      
+      animation: animate-gradient 0.4s linear infinite;
+      cursor:pointer;
+      transition: all 1s;
+} 
+
+.Quora{
+    Border:none;
+    color:white;
+    background-color: rgb(150, 13, 13);
+    padding:10px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.reddit{
+    border-color:coral;
+    color:rgb(29, 27, 27);
+    background-color: rgb(240, 101, 2);
+    padding:10px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 20px;
+    font-weight: 700;
+    border: none;
+}
+
+.myspace{
+    border:none;
+    color:white;
+    background-color:rgb(16, 24, 80);
+    padding:10px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 20px;
+   
+    
+  
+}
+
+.head4{
+   
+    text-align:center;
+    text-align:center;background:radial-gradient(  rgba(255,236,2,1), rgb(255, 150, 2), rgba(255,187,29,1), rgba(255,175,7,1));
+   
+   background-size: 200%;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   background-clip: text;
+   animation: animate-gradient 2s linear infinite;
+   cursor:pointer;
+}
+@keyframes animate-gradient{
+    to {
+        background-position: 200%;
+    }
+}
+.head4:hover{
+      
+      animation: animate-gradient 0.4s linear infinite;
+      cursor:pointer;
+      transition: all 1s;
+} 
+
+.goodbudget{
+    border:none;
+    color:rgb(223, 212, 212);
+    background-color:rgb(15, 224, 15);
+    padding:10px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 20px;
+    font-weight: 700;
+    
+}
+
+.mint{
+    border:none;
+    color:rgb(68, 66, 66);
+    background-color:rgb(9, 255, 181);
+    padding:10px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 700;
+}
+.acorns{
+    border:none;
+    color:rgb(231, 227, 227);
+    background-color:rgb(4, 251, 45);
+    padding:10px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    
+    font-weight: 700;
+    border-style:solid;
+    border-color:rgb(60, 255, 0);
+}
+.invest{
+    border-style:solid;
+    border-color:orange;
+    color:rgb(231, 227, 227);
+    background-color:rgb(2, 2, 2);
+    padding:10px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 700;
+}
+.simplifi{
+    color:rgb(231, 227, 227);
+    background-color:rgb(1, 45, 240);
+    padding:10px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+   
+    font-weight: 700;
+    border: none;
+}
+.intuit{
+    color:rgb(231, 227, 227);
+    background-color:rgb(5, 108, 252);
+    border: none;
+    padding:10px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    
+    font-weight: 700;
+}
+.YNAB{
+    color:rgb(231, 227, 227);
+    background-color:rgb(87, 5, 252);
+    border: none;
+    padding:10px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+   
+    font-weight: 700;
+}
+.honeydue{
+    color:rgb(33, 29, 29);
+    background-color:rgb(252, 5, 13);
+    border: none;
+    padding:10px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+   
+    font-weight: 700;
+}
+.head5{
+
+    text-align:center;
+}
+.CNNB{
+    color:rgb(255, 250, 250);
+    border-color:white;
+    background-color:rgb(252, 5, 13);
+    border-style:double;
+    padding:10px 30px;
+    
+    border-radius: 20px;
+    cursor: pointer;
+   
+    font-weight: 700;
+}
+.forbes{
+    color:rgb(255, 250, 250);
+    border-color:rgb(0, 0, 0);
+    background-color:rgb(22, 18, 19);
+    border-style:double;
+    padding:10px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    
+    font-weight: 700;
+}
+.cnbc{
+    color:rgb(255, 250, 250);
+    border-color:rgb(6, 6, 6);
+    background-color:rgb(25, 5, 253);
+    border-style:double;
+    padding:10px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    
+    font-weight: 700;
+}
+.google{
+    color:rgb(11, 10, 10);
+    border:solid;
+    
+    background-color:white;
+    border-top:rgb(255, 255, 0);
+    border-bottom:rgb(0, 255, 26);
+    border-left:rgb(255, 8, 0);
+    border-right:rgb(0, 26, 255);
+    border-style:groove;
+    padding:10px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 700;
+}
+.wsj{
+    color:rgb(6, 6, 6);
+    border-color:rgb(6, 6, 6);
+    background-color:rgb(255, 255, 255);
+    border-style:double;
+    padding:10px;
+    padding-left:20px;
+    padding-right:20px;
+    border-top: aliceblue;
+    border-bottom: aliceblue;
+    cursor: pointer;
+   
+    font-weight: 700;
+}
+.entre{
+    color:rgb(6, 6, 6);
+    border-color:rgb(6, 6, 6);
+    background-color:rgb(255, 255, 255);
+    border-style:double;
+    padding:10px 30px;
+    border-left: aliceblue;
+    border-right: aliceblue;
+    cursor: pointer;
+    font-weight: 700;
+}
+.head6{
+   
+    text-align:center;
+    text-align:center;background:radial-gradient(  rgba(255,236,2,1), rgb(255, 150, 2), rgba(255,187,29,1), rgba(255,175,7,1));
+   word-spacing: 8px;
+   background-size: 200%;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   background-clip: text;
+   animation: animate-gradient 2s linear infinite;
+   cursor:pointer;
+}
+@keyframes animate-gradient{
+    to {
+        background-position: 200%;
+    }
+}
+.head6:hover{
+      
+      animation: animate-gradient 0.4s linear infinite;
+      cursor:pointer;
+      transition: all 1s;
+} 
+
+.gfg{
+    color:rgb(6, 6, 6);
+    border-color:rgb(6, 6, 6);
+    background-color:rgb(0, 249, 149);
+    border-style:double;
+    padding:10px 30px;
+    border-left: aliceblue;
+    border-right: aliceblue;
+    font-weight: 700;
+}
+.solo{
+    color:rgb(204, 192, 192);
+    border-color:rgb(6, 6, 6);
+    background-color:rgb(120, 10, 139);
+    border-style:double;
+    padding:10px 30px;
+    border-top: aliceblue;
+    border-bottom: aliceblue;
+    cursor: pointer;
+    
+    font-weight: 700;
+}
+.programiz{
+    color:rgb(6, 6, 6);
+    border-color:rgb(6, 6, 6);
+    background-color:rgb(104, 5, 191);
+    border-style:double;
+    padding:10px 30px;
+    border-left: aliceblue;
+    border-right: aliceblue;
+    cursor: pointer;
+    font-weight: 700;
+}
+.hero{
+    color:rgb(9, 9, 9);
+    border-color:rgb(6, 6, 6);
+    background-color:rgb(116, 12, 134);
+    border-style:double;
+    padding:10px 30px;
+    border-top: aliceblue;
+    border-bottom: aliceblue;
+    cursor: pointer;
+    font-weight: 700;
+}
+.enki{
+    color:rgb(0, 255, 110);
+    border-color:rgb(6, 6, 6);
+    background-color:rgb(0, 0, 0);
+    border-style:double;
+    padding:10px 30px;
+    border-left: aliceblue;
+    border-right: aliceblue;
+    cursor: pointer;
+    font-weight: 700;
+}
+.codegym{
+    color:rgb(255, 255, 255);
+    border-color:rgb(6, 6, 6);
+    background-color:orange;
+    border-style:double;
+    padding:10px 30px;
+    border-top: aliceblue;
+    border-right: aliceblue;
+    cursor: pointer;
+    
+    font-weight: 700;
+}
+.coderpad{
+    color:rgb(255, 255, 255);
+    border-color:rgb(6, 6, 6);
+    background-color:rgb(255, 0, 0);
+    border-style:double;
+    padding:10px 30px;
+    border-top: aliceblue;
+    border-right: aliceblue;
+    cursor: pointer;
+    
+    font-weight: 700;
+}
+.gutenberg{
+    color:rgb(0, 0, 0);
+    border-color:rgb(6, 6, 6);
+    background-color:gold;
+    border-style:double;
+    padding:10px 30px;
+    border-top: aliceblue;
+    border-right: aliceblue;
+    cursor: pointer;
+   
+    font-weight: 700;
+}
+.openlibrary{
+    color:rgb(0, 0, 0);
+    border-color:rgb(6, 6, 6);
+    background-color:#E1DCC5;
+    border-style:double;
+    padding:10px 30px;
+    border-top: aliceblue;
+    border-right: aliceblue;
+    cursor: pointer;
+    
+    font-weight: 700;
+}
+.boon{
+    color:rgb(252, 252, 252);
+    border-color:orange;
+    background-color:#0d24b6;
+    border-style:double;
+    padding:10px 30px;
+    border-top: aliceblue;
+    border-right: aliceblue;
+    cursor: pointer;
+   
+    font-weight: 700;
+}
+.goodreads{
+    color:rgb(252, 252, 252);
+    border-color:#E1DCC5;
+    background-color:brown;
+    border-style:double;
+    padding:10px 30px;
+    border-top: aliceblue;
+    border-right: aliceblue;
+    cursor: pointer;
+    
+    font-weight: 700;
+}
+.feedbooks{
+    color:rgb(18, 17, 17);
+    border-color:#000000;
+    background-color:rgb(255, 255, 255);
+    border-style:double;
+    padding:10px 30px;
+    border-top: aliceblue;
+    border-right: aliceblue;
+    cursor: pointer;
+   
+    font-weight: 700;
+}
+.contact{
+    text-align: center;
+    Color:rgb(255, 255, 255);
+}
+.footer1{
+    background-color: rgb(14, 13, 13);
+}
+.disclaimer{
+    text-align: center;
+    background-color: aliceblue;
+}
+.mark{
+    background-color: rgb(140, 140, 140);
+}
+.inves{
+    color:rgb(255, 246, 246);
+    border-color:#a52828;
+    background-color:rgb(30, 30, 79);
+    border-style:double;
+    padding:10px 30px;
+    border-left: rgb(96, 101, 104);
+    border-right: rgb(95, 99, 103);
+    cursor: pointer;
+
+}
+.div2{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:1vw;
+    
+}
+.div3{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:1vw;
+    
+}
+.div4{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:1vw;
+}
+.div5{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:1vw;
+}
+.div6{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:1vw;
+}
+.head0{
+text-align: center;
+margin-left: 20px;
+text-align:center;background:radial-gradient(  rgb(140, 140, 139), rgb(255, 255, 255), rgb(103, 103, 103), silver);
+word-spacing: 8px;
+background-size: 200%;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+animation: animate-gradient 2s linear infinite;
+cursor:pointer;
+    }
+    @keyframes animate-gradient{
+        to {
+            background-position: 200%;
+        }
+    }
+    .head3:hover{
+          
+          animation: animate-gradient 0.4s linear infinite;
+          cursor:pointer;
+          transition: all 1s;
+    }
+
+.head1{
+    margin-left: 20px;
+    text-align:center;background:radial-gradient(  rgba(255,236,2,1), rgb(255, 150, 2), rgba(255,187,29,1), rgba(255,175,7,1));
+   word-spacing: 8px;
+   background-size: 200%;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   background-clip: text;
+   animation: animate-gradient 1s linear infinite;
+   cursor:pointer;
+}
+@keyframes animate-gradient{
+    to {
+        background-position: 200%;
+    }
+}
+.head1:hover{
+      
+      animation: animate-gradient 0.4s linear infinite;
+      cursor:pointer;
+      transition: all 1s;
+} 
+
+    .head2{
+    text-align: center;
+    margin-left: 20px;
+    text-align:center;background:radial-gradient(  rgba(255,236,2,1), rgb(255, 150, 2), rgba(255,187,29,1), rgba(255,175,7,1));
+   word-spacing: 8px;
+   background-size: 200%;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   background-clip: text;
+   animation: animate-gradient 2s linear infinite;
+   cursor:pointer;
+}
+@keyframes animate-gradient{
+    to {
+        background-position: 200%;
+    }
+}
+.head2:hover{
+      
+      animation: animate-gradient 0.4s linear infinite;
+      cursor:pointer;
+      transition: all 1s;
+} 
+
+audio {
+    padding-left:37vw;
+}
+.img1{
+    width:30vw;
+    height:auto;
+    animation: fade 5s infinite;
+    animation-direction: alternate;
+    
+    
+}
+@keyframes fade{
+    50%{opacity:0}
+    
+}
+
+    
